@@ -2,9 +2,9 @@
 
 namespace Clevertek\LaravelDDD;
 
+use Clevertek\LaravelDDD\Commands\LaravelDDDCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Clevertek\LaravelDDD\Commands\LaravelDDDCommand;
 
 class LaravelDDDServiceProvider extends PackageServiceProvider
 {

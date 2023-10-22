@@ -2,9 +2,9 @@
 
 namespace Clevertek\LaravelDDD\Tests;
 
+use Clevertek\LaravelDDD\LaravelDDDServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Clevertek\LaravelDDD\LaravelDDDServiceProvider;
 
 class TestCase extends Orchestra
 {
